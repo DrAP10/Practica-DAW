@@ -8,6 +8,7 @@ package edu.uhu.daw.practica5a;
 
 import java.io.Serializable;
 
+
 /**
  *
  * @author usuario
