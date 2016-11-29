@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Practica 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <ul class="menu">
+                <li><a href="crear-usuario.html">Crear Usuario</a></li>
+                <li><a href="ver-usuario.html">Ver Usuario</a></li>
+                <li><a href="actualizar-usuario.html">Actualizar Usuario</a></li>
+                <li><a href="borrar-usuario.html">Borrar Usuario</a></li>
+            </ul>
+        </nav>
+        <h1>Crear usuario</h1>
+        <form id="form1" action="Controlador" method="post" onsubmit="return validar(this);">
+            <input type="hidden" name="_method" value="create" />
+            <table>
+                <tr>
+                    <td><label for="dni">Dni</label></td>
+                    <td><input id="dni" type="text" name="dni"  required /></td>                    
+                </tr>
+                <tr>
+                    <td><label for="nombre">Nombre</label></td>
+                    <td><input id="nombre" type="text" name="nombre"  required /></td>                    
+                </tr>
+                <tr>
+                    <td><label for="apellidos">Apellidos</label></td>
+                    <td><input id="apellidos" type="text" name="apellidos"  required /></td>                    
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td><input id="edad" type="number" name="edad" /></td>
+                </tr>
+                <tr>
+                    <td><label for="direccion">Direccion</label></td>
+                    <td><input id="direccion" type="text" name="direccion" /></td>                    
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail</label></td>
+                    <td><input id="email" type="text" name="email" /></td>                    
+                </tr>
+                <tr>
+                    <td><label for="telefono">Telefono</label></td>
+                    <td><input id="telefono" type="text" name="telefono" /></td>                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Guardar" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -6,28 +6,19 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Practica 5</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
     </head>
-     <body>
+    <body>
         <h1>DAW - Práctica 5.a) Servlets y Acceso a Datos mediante un Pool de conexiones</h1>
-        <form id="form1" action="Controlador" method="post" onsubmit="return validar(this);">
-            <table>
-                <tr>
-                    <td><label for="nombre">Nombre</label></td>
-                    <td><input id="nombre" type="text" name="nombre"  required /></td>                    
-                </tr>
-                <tr>
-                    <td><label for="edad">Edad</label></td>
-                    <td><input id="edad" type="number" name="edad" /></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><input type="submit" value="Guardar" /></td>
-                </tr>
-            </table>
- 
-        </form>
+        <nav class="menu" id="menu">
+            <ul >
+                <li><a href="crear-usuario.html">Crear Usuario</a></li>
+                <li><a href="ver-usuario.html">Ver Usuario</a></li>
+                <li><a href="borrar-usuario.html">Borrar Usuario</a></li>
+            </ul>
+        </nav>
     </body>
 </html>

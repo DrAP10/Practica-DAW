@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Practica 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <ul class="menu">
+                <li><a href="crear-usuario.html">Crear Usuario</a></li>
+                <li><a href="ver-usuario.html">Ver Usuario</a></li>
+                <li><a href="actualizar-usuario.html">Actualizar Usuario</a></li>
+                <li><a href="borrar-usuario.html">Borrar Usuario</a></li>
+            </ul>
+        </nav>
+        <h1>Actualizar usuario</h1>
+        <form id="form1" action="Controlador" method="post" onsubmit="return validar(this);">
+            <input type="hidden" name="_method" value="update" />
+            <table>
+                <tr>
+                    <td><label for="dni">Dni</label></td>
+                    <td><input id="dni" type="text" name="dni"  required /></td>                    
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Actualizar" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

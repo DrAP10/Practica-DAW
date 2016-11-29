@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-nov-2016, 17:46:51
+    Author     : usuario
+*/
+
+header
+{
+    text-align: center;
+    background-color: cyan;
+    color: black;
+}
+
+nav
+{
+    background-color: cyan;
+    color: black;
+}
+
+a:hover
+{
+    background-color: black;
+    color: cyan;
+}
+
+section
+{
+    background-color: #CACACA;
+    color: black;
+    padding-bottom: 20px;
+}
+
+
+/* ======= Menu ======= */
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+#menu ul li {
+    background-color: #666;
+}
+#menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+#menu ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+}
+/*
+nav {
+	margin: 0px auto;
+	width: 990px;
+	height: 40px;
+	background: -ms-linear-gradient(top, black, #505050);
+	background: -webkit-linear-gradient(top, black, #505050);
+	background: -moz-linear-gradient(top, black, #505050);
+}
+
+ul {
+	list-style: none;
+}
+
+
+.menu li a {
+	color:white;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.menu li li a {
+	background: -ms-linear-gradient(to right, black, #505050);
+	background: -webkit-linear-gradient(to right, black, #505050);
+	background: -moz-linear-gradient(to right, black, #505050);
+	background: linear-gradient(to right, black, #505050);
+}
+
+.menu li a:hover {
+	background: -ms-linear-gradient(top, white, #505050);
+	background: -webkit-linear-gradient(top, white, #505050);
+	background: -moz-linear-gradient(top, white, #505050);
+}
+
+.menu > li {
+	float: left;
+}
+
+.menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 100px;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+*/
+/*un tercer nivel  y sucesivos */
+/*
+.menu li ul li {
+	position: relative;
+}
+
+.menu li ul li ul {
+	right: -100px;
+	top: -2px;
+}
+
+
+article {
+
+	border-left: solid black 1px;
+	border-right: solid black 1px;
+	width: 750px;
+	padding: 10px;
+	clear:left;
+	float: left;
+}
+
+aside {
+	float: right;
+	width: 200px;
+	padding-top: 10px;
+}
+
+aside form {
+	}
+
+aside fieldset {
+	border: 2px dotted #505050;
+	background: beige ;
+}
+aside legend {
+	color: white;
+	background: black ;
+	font-size: .8em;
+}
+aside li {
+	list-style-type: none;
+}
+aside label {
+	font-size: .9em;
+}
+aside .boton {
+	color:white;
+	background:black;
+}
+aside .dcha {
+	text-align:right;
+}*/
+
+
